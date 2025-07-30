@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import axios from "axios";
+import Weather from "./weather";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         >
           Learn React
         </a>
+        <Weather city="London" />
       </header>
     </div>
   );
